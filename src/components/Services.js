@@ -13,8 +13,7 @@ const Services = () => {
     mainHeader: "SERVICES",
     subHeading: "My Services",
     text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting\
-    industry. Lorem Ipsum standard dummy text.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
   });
   const [state] = React.useState([
     {
@@ -22,48 +21,42 @@ const Services = () => {
       icon: <FaGithub className="commonIcons" />,
       heading: "Web Development",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-      industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
     {
       id: 2,
       icon: <FaCamera className="commonIcons" />,
       heading: "Photography",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
     {
       id: 3,
       icon: <FaCircleNotch className="commonIcons" />,
       heading: "Web Designing",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
     {
       id: 4,
       icon: <FaApple className="commonIcons" />,
       heading: "App Development",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
     {
       id: 5,
       icon: <FaFileVideo className="commonIcons" />,
       heading: "Video Editing",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
     {
       id: 6,
       icon: <FaSearchDollar className="commonIcons" />,
       heading: "SEO Expert",
       text:
-        "Lorem Ipsum is simply dummy text of the printing typesetting\
-        industry. simply dummy",
+        "Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy",
     },
   ]);
   return (

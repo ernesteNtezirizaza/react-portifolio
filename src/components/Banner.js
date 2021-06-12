@@ -11,8 +11,7 @@ const Banner = () => {
   const [state] = React.useState({
     title: "I am Ntezirizaza Erneste",
     text:
-      "I'm Erneste, professional web developer with long time \
-    experience in this field​",
+      "I'm Erneste, professional web developer with long time experience in this field​",
     image: "/images/man.jpg",
   });
   return (
@@ -39,11 +38,11 @@ const Banner = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href="" className="btn btn-outline">
+                  <a href="fgdgf" className="btn btn-outline">
                     My Portfolio
                   </a>
                   &nbsp;&nbsp;&nbsp;
-                  <a href="" className="btn btn-smart">
+                  <a href="hdhdhf" className="btn btn-smart">
                     <FaPlay className="play" />
                   </a>
                 </div>
