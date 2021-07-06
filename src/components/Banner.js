@@ -35,11 +35,6 @@ const Banner = () => {
 								</ul>
 								<h1>{state.title}</h1>
 								<p>{state.text}</p>
-								<div className="header__buttons">
-									<a href="fgdgf" className="btn btn-outline">
-										My Portfolio
-									</a>
-								</div>
 							</div>
 						</div>
 					</div>
