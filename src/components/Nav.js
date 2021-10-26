@@ -9,7 +9,7 @@ const Nav = () => {
 				<div className="navbar__container">
 					<ul className="navbar__left">
 						<div className="navbar_left">
-							<h1 className="text-xl">Erneste</h1>
+							<h1 className="heading-text">Erneste</h1>
 						</div>
 					</ul>
 					{state ? (

@@ -28,12 +28,12 @@ const Skills = () => {
 
 				<p className="p-text5">Nodejs</p>
 				<div class="container">
-					<div class="skills node">90%</div>
+					<div class="skills node">80%</div>
 				</div>
 
 				<p className="p-text6">MongoDB</p>
 				<div class="container">
-					<div class="skills mongo">90%</div>
+					<div class="skills mongo">80%</div>
 				</div>
 			</div>
 		</div>

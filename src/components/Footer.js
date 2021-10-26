@@ -21,7 +21,7 @@ const Footer = () => {
 							<li class="mb-2">
 								<a
 									href="#hh"
-									class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
+									class="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800 hover:no-underline"
 								>
 									Cool stuff
 								</a>
@@ -195,7 +195,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t">
+				{/* <div class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t">
 					<div class="sm:w-full px-4 md:w-1/6">
 						<strong class="text-white">Location</strong>
 					</div>
@@ -212,7 +212,7 @@ const Footer = () => {
 							Get Started
 						</button>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</footer>
 	);

@@ -38,10 +38,11 @@ body {
   display: flex;
   list-style-type: none;
 }
+
 .navbar__right li a {
   text-decoration: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: lighter;
   font-size: 18px;
   padding: 0 15px;
 }
@@ -101,6 +102,7 @@ h2 {
   list-style-type: none;
   display: flex;
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 .header__ul li {
   width: 50px;
@@ -130,16 +132,28 @@ h2 {
   height: 400px;
 }
 .header__section h1 {
-  font-size: 57px;
-  font-weight: 700;
+  font-size: 45px;
+  font-weight: 500;
   margin-bottom: 20px;
+  margin-left: 60px;
 }
+
+.heading-text {
+  font-size: 45px;
+}
+
+.heading-text::first-letter {
+  color: cyan;
+  font-size: 100px;
+}
+
 .header__section p {
   font-size: 26px;
-  font-weight: 300;
+  font-weight: lighter;
   line-height: 40px;
   margin-bottom: 50px;
   padding-bottom: 60px;
+  margin-left: 60px;
 }
 
 .btn {
@@ -425,42 +439,42 @@ h2 {
  .p-text1 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1190px;
+  margin-right: 1040px;
 }
 
 .p-text2 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1210px;
+  margin-right: 1060px;
 }
 
 .p-text3 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1190px;
+  margin-right: 1040px;
 }
 
 .p-text4 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1210px;
+  margin-right: 1060px;
 }
 
 .p-text5 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1180px;
+  margin-right: 1030px;
 }
 
 .p-text6 {
   font-size: 20px;
   color: #fff;
-  margin-right: 1150px;
+  margin-right: 1000px;
 }
 
-.html {width: 95%; background-color: #04AA6D;}
-.css {width: 90%; background-color: #2196F3;}
-.react {width: 85%; background-color: #f44336;}
-.vue {width: 80%; background-color: #808080;}
-.node {width: 90%; background-color: #2196F3;}
-.mongo {width: 90%; background-color: orange;}
+.html { margin-left: 50px; width: 95%; background-color: #04AA6D;}
+.css { margin-left: 50px; width: 90%; background-color: #2196F3;}
+.react { margin-left: 50px; width: 85%; background-color: darkturquoise;}
+.vue { margin-left: 50px; width: 80%; background-color: #808080;}
+.node { margin-left: 50px; width: 80%; background-color: #2196F3;}
+.mongo { margin-left: 50px; width: 80%; background-color: orange;}
